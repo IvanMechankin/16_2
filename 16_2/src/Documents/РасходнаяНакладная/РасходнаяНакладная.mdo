@@ -90,10 +90,10 @@
       <objectType typeId="5168ccd6-acab-4c5e-88ee-48e91feea866" valueTypeId="f31e5376-2361-4745-bcff-7dd71e4af408"/>
       <rowType typeId="c29092a7-a023-43bb-93f2-1ea830560ecb" valueTypeId="860bed70-ee80-4cda-8368-4cc3f5367f3a"/>
     </producedTypes>
-    <name>СписокНоменклатуры</name>
+    <name>Товары</name>
     <synonym>
       <key>ru</key>
-      <value>Список номенклатуры</value>
+      <value>Товары</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -155,6 +155,95 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="0b8b4b3d-de5d-4b96-b29c-558b83a0e140">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f3a576a2-b2cc-4e83-934c-a8d37df0e0ee">
+    <producedTypes>
+      <objectType typeId="fa9b123b-37cc-4d4b-86f2-29d413709f90" valueTypeId="ebc1b7ce-e8be-40dc-a596-b2a855597e87"/>
+      <rowType typeId="9aaac414-0cb7-45e3-9f3b-cf40249cd063" valueTypeId="e1ed9ae2-b378-44ea-90db-730d0729ecbc"/>
+    </producedTypes>
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3ec96a3a-96a7-4b3e-a46d-094b955891c9">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="79c5d588-c9b0-4a83-9f19-0d13c97fae20">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f177c099-3f62-4bea-b587-678a6b3b0ea6">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c5fce4a0-e822-415a-a43c-9a13df4b6cef">
       <name>Сумма</name>
       <synonym>
         <key>ru</key>

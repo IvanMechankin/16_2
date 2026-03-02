@@ -10,4 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ОперативныйУчет</picture>
   </picture>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.РасходнаяНакладная</content>
 </mdclass:Subsystem>
