@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cai:ClientApplicationInterface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cai="http://g5.1c.ru/v8/dt/cai">
-  <top xsi:type="cai:CaiPanel" id="90cf2a44-cca1-4f6a-a715-cf63e2e241ef" name="OpenedPanel"/>
+  <bottom xsi:type="cai:CaiPanel" id="90cf2a44-cca1-4f6a-a715-cf63e2e241ef" name="OpenedPanel"/>
   <left xsi:type="cai:CaiPanel" id="066b71aa-0298-4b9a-a607-ae1392f5198b" name="SectionPanel" displayType="PictureAndText"/>
   <unset id="d25ef671-9435-41d0-9cf4-2f0e92ee5bf1" name="FavoritePanel"/>
   <unset id="077078ee-6bfb-4ae9-9a7e-59096d4316e7" name="HistoryPanel"/>

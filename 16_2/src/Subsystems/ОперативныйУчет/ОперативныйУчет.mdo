@@ -12,4 +12,10 @@
   </picture>
   <content>Document.ПриходнаяНакладная</content>
   <content>Document.РасходнаяНакладная</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Enum.УчетнаяПолитика</content>
+  <content>Enum.ВидыНоменклатуры</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>AccumulationRegister.ПродажиТоваров</content>
 </mdclass:Subsystem>
