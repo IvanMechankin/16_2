@@ -18,4 +18,5 @@
   <content>InformationRegister.УчетнаяПолитика</content>
   <content>AccumulationRegister.ОстаткиНоменклатуры</content>
   <content>AccumulationRegister.ПродажиТоваров</content>
+  <content>Report.ВедомостьПоПартиямТоваров</content>
 </mdclass:Subsystem>
